@@ -1,7 +1,1 @@
-local execute = script.Parent.Parent.Execute
-local text = script.Parent.Parent.TextBox
-local remote = script.Parent.MSFunction
-
-execute.MouseButton1Click:Connect(function()
-	remote:FireServer(text.Text)
-end)
+local RemoteEvent = Instance.new("RemoteEvent")
